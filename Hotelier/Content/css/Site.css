@@ -1,0 +1,10 @@
+﻿/* Set padding to keep content from hitting the edges */
+body * {
+    -webkit-tap-highlight-color: transparent;
+}
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
